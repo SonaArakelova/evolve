@@ -20,7 +20,7 @@ export function Works() {
         navigation
         pagination={{ clickable: true }}
         autoplay={{
-          delay: 1000, // 3 seconds between slides
+          delay: 1000, 
           disableOnInteraction: false, // keep autoplay after user interaction
           pauseOnMouseEnter: true, // optional: pause when hovered
         }}
@@ -31,7 +31,7 @@ export function Works() {
           <SwiperSlide key={i}>
             <div className="relative w-full h-screen rounded overflow-hidden shadow-md">
               <Image
-                src={`/Images/${src}`}
+                src={`/images/${src}`}
                 alt={`Project ${i + 1}`}
                 fill
                 className="object-cover"

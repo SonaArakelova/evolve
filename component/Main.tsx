@@ -7,7 +7,7 @@ export function Main() {
   return (
     <section id="home" className="relative h-screen bg-black">
      <Image
-        src="/Images/main.jpg"         
+        src="/images/main.jpg"         
         alt="Company"
         fill
         priority

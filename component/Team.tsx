@@ -1,6 +1,5 @@
 
 
-
 'use client'
 import Image from "next/image";
 
@@ -28,7 +27,7 @@ export function Team() {
         <div className="border-t border-black flex h-[800px] gap-0 relative">
           <div className=" w-1/2 h-full absolute ">
             <Image
-              src="/Images/mila1.jpg"
+              src="/images/mila1.jpg"
               alt="Mila"
               fill
               className="object-cover"
@@ -81,7 +80,7 @@ export function Team() {
         <div className="border-t border-black flex h-[800px] gap-0 relative">
           <div className=" w-1/2 h-full absolute right-0">
             <Image
-              src="/Images/ira1.jpg"
+              src="/images/ira1.jpg"
               alt="Mila"
               fill
               className="object-cover"

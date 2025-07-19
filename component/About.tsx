@@ -1,7 +1,5 @@
 'use client';
 
-
-
 const message = ` Whether you're launching a personal brand or scaling a business, our team blends creativity with strategy to make your digital presence unforgettable.
  Let's evolve your vision into something extraordinary.`
 
@@ -9,7 +7,7 @@ export function About() {
   return (
     <section id="about" 
     style={{
-        backgroundImage: "url('/Images/about-background.png')",
+        backgroundImage: "url('/images/about-background.png')",
         backgroundSize: "cover" ,       
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
