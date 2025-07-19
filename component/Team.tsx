@@ -27,7 +27,7 @@ export function Team() {
         <div className="border-t border-black flex h-[800px] gap-0 relative">
           <div className=" w-1/2 h-full absolute ">
             <Image
-              src="/images/mila1.jpg"
+              src="/Images/mila1.jpg"
               alt="Mila"
               fill
               className="object-cover"
@@ -52,7 +52,7 @@ export function Team() {
 
         <div className="border-t border-black flex items-center justify-between px-8">
           <Image
-            src="/images/mila2.jpg"
+            src="/Images/mila2.jpg"
             alt="Left Avatar"
             width={250}
             height={250}
@@ -64,7 +64,7 @@ export function Team() {
           </p>
 
           <Image
-            src="/images/mila3.jpg"
+            src="/Images/mila3.jpg"
             alt="Right Avatar"
             width={250}
             height={250}
@@ -80,7 +80,7 @@ export function Team() {
         <div className="border-t border-black flex h-[800px] gap-0 relative">
           <div className=" w-1/2 h-full absolute right-0">
             <Image
-              src="/images/ira1.jpg"
+              src="/Images/ira1.jpg"
               alt="Mila"
               fill
               className="object-cover"
@@ -107,7 +107,7 @@ export function Team() {
 
         <div className="border-t border-black flex items-center justify-center gap-35">
           <Image
-            src="/images/ira2.jpg"
+            src="/Images/ira2.jpg"
             alt="Left Avatar"
             width={270}
             height={320}

@@ -14,7 +14,7 @@ export function Vision() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-start gap-8 mt-20">
         <div className="relative w-[100px] h-[500px] md:w-1/2">
           <Image
-            src="/images/vs4.jpg"
+            src="/Images/vs4.jpg"
             alt="Vision sample 1"
             fill
             className="object-cover rounded-lg"
@@ -32,21 +32,21 @@ export function Vision() {
 
           <div className="grid grid-cols-3 gap-4">
             <Image
-              src="/images/vs1.jpg"
+              src="/Images/vs1.jpg"
               alt="Vision sample 2"
               width={300}
               height={300}
               className="object-cover w-full h-full rounded-lg"
             />
             <Image
-              src="/images/vs2.jpg"
+              src="/Images/vs2.jpg"
               alt="Vision sample 3"
                width={200}
               height={250}
               className="object-cover w-full h-full rounded-lg"
             />
             <Image
-              src="/images/vs3.jpg"
+              src="/Images/vs3.jpg"
               alt="Vision sample 4"
                width={200}
               height={250}

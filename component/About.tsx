@@ -7,7 +7,7 @@ export function About() {
   return (
     <section id="about" 
     style={{
-        backgroundImage: "url('/images/about-background.png')",
+        backgroundImage: "url('/Images/about-background.png')",
         backgroundSize: "cover" ,       
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

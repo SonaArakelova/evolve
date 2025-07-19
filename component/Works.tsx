@@ -31,7 +31,7 @@ export function Works() {
           <SwiperSlide key={i}>
             <div className="relative w-full h-screen rounded overflow-hidden shadow-md">
               <Image
-                src={`/images/${src}`}
+                src={`/Images/${src}`}
                 alt={`Project ${i + 1}`}
                 fill
                 className="object-cover"
