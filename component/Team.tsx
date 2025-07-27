@@ -39,7 +39,7 @@ export function Team() {
                     transform -translate-x-1/2 -translate-y-1/2">
             <div className="flex flex-col space-y-4  text-5xl text-[#151515d5] bg-opacity-50 italic ">
               <span className="inline-block tracking-widest">Hi  there,</span>
-              <span className="inline-block tracking-widest">I am the peron</span>
+              <span className="inline-block tracking-widest">I am the person</span>
               <span className="inline-block tracking-widest">Behind  </span>
               <span className="inline-block tracking-widest">EVOLVE SMM </span>
             </div>
