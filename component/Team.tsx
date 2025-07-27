@@ -154,7 +154,7 @@ export function Team() {
 
   useEffect(() => {
     const checkScreen = () => {
-      setIsIphone16(window.innerWidth <= 400)
+      setIsIphone16(window.innerWidth <= 500)
     }
 
     checkScreen()

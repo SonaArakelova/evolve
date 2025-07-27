@@ -72,7 +72,7 @@ export function Vision() {
 
   useEffect(() => {
     const checkScreen = () => {
-      setIsIphone16(window.innerWidth <= 400);
+      setIsIphone16(window.innerWidth <= 500);
     };
 
     checkScreen();

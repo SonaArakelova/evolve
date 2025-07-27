@@ -66,7 +66,7 @@ export function Works() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 400); // iPhone 16 portrait width
+      setIsMobile(window.innerWidth <= 500); // iPhone 16 portrait width
     };
 
     handleResize(); // initial check

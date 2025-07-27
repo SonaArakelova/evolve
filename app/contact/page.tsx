@@ -166,7 +166,7 @@ export default function ContactPage() {
   const [isIphone16, setIsIphone16] = useState(false);
 
   useEffect(() => {
-    const checkScreen = () => setIsIphone16(window.innerWidth <= 400);
+    const checkScreen = () => setIsIphone16(window.innerWidth <= 500);
     checkScreen();
     window.addEventListener('resize', checkScreen);
     return () => window.removeEventListener('resize', checkScreen);

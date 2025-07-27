@@ -57,7 +57,7 @@ export function About() {
   useEffect(() => {
     const checkScreenSize = () => {
       const width = window.innerWidth;
-      setIsIphone16Portrait(width <= 400);
+      setIsIphone16Portrait(width <= 500);
     };
 
     checkScreenSize();
