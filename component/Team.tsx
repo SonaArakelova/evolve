@@ -209,7 +209,7 @@ export function Team() {
               alt="Right Avatar"
               width={250}
               height={250}
-              className="self-start mt-10"
+              className="self-start mt-10 "
             />
           )}
         </div>
@@ -247,7 +247,7 @@ export function Team() {
             alt="Left Avatar"
             width={270}
             height={320}
-            className={isIphone16 ? '' : 'mt-30'}
+            className={isIphone16 ? 'mb-10' : 'mt-30'}
           />
           <p className={`text-[#080808] text-lg ${isIphone16 ? 'w-full mb-6' : 'w-[600px] mt-15 self-start'}`}>
             {textIra}
