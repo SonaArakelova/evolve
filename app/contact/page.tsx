@@ -211,7 +211,7 @@ export default function ContactPage() {
     <section className="contact py-14 bg-[#7e7d7ddb] text-[#171616] ">
       <div
         className={`container mx-auto px-4 flex flex-col  ${
-          isIphone16 ? 'mt-10' : 'md:flex-row mt-30'
+          isIphone16 ? 'mt-20' : 'md:flex-row mt-35'
         } items-start gap-6  mb-20 `}
       >
         <div  className={`flex-1 space-y-4 pl-0 ${
